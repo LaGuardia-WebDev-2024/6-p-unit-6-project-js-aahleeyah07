@@ -11,9 +11,38 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  background(169, 169, 169)
+  //eyes
+ellipse(260,150,65,50)
+ellipse(140,150,65,50)
+//outside of pupil
+fill(28, 40, 51)
+ellipse(260,145,40,40)
+ellipse(140,145,40,40)
+//pupil
+fill(0,0, 0)
+ellipse(260,145,20,20) 
+ellipse(140,145,20,20)
+//eye glare
+fill(248, 249, 249)
+ellipse(147,145,10,10) 
+ellipse(267,145,10,10) 
 
-  
+//lips
+fill(239, 83, 80)
+rect(170,235,60,30)
+
+line(230,110,300,110)
+line(100,110,170,110)
+line(300,110,315,115)
+line(100,110,85,115)
+line(230,110,220,115)
+line(170,110,180,115)
+line(160,250,240,250)
+line(140,240,160,250)
+line(240,250,260,240)
+
+
 
 }
 
